@@ -52,16 +52,17 @@ body {
         justify-content: center;
         align-items:flex-start;
         padding: 12px 20px;
-        border-radius: 20px;
+        border-radius: 0px;
         right: 12px;
-        top: 108px;
+        top: 4.5vh;
         background-color: #125635c0;
         z-index: 99;
     }
     .showlistlinks{
+        border-radius: 0px;
         /* display: block; */
         position: absolute;
-        right: -15px;
+        right: -57px;
     }
     .navbutton{
         display: none;
