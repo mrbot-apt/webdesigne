@@ -19,11 +19,24 @@ body {
     height: 100vh;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (min-width:1367px) {
     body {
         background-color: red;
     }
 
+}
+
+@media only screen and (max-width:1081px){
+    body{
+        width: 100vw;
+        height: auto;
+        background-color: #dadada;
+    }
+    header{
+        position: relative;
+        top: 3px;
+        padding: 42px;
+    }
 }
 
 
