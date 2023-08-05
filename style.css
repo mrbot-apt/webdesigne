@@ -19,7 +19,7 @@ body {
     height: auto;
 }
 
-@media only screen and (max-width:1400px){
+@media only screen and (max-width:1200px){
     body {
         background-color: red;
     }
