@@ -30,12 +30,12 @@ body {
     body{
         width: 100vw;
         height: auto;
-        background-color: #dadada;
+        background-color: #953030;
     }
     header{
         position: relative;
-        top: 3px;
-        padding: 42px;
+        top: 0px;
+        background-color: red;
     }
 }
 
