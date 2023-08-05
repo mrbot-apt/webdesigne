@@ -14,17 +14,18 @@ body {
     overflow-x: hidden;
 }
 
-#main{
+#main {
     width: 100vw;
-    height: auto;
+    height: 100vh;
 }
 
-@media only screen and (max-width:1200px){
-    body {
+@media only screen and (max-width:1200px) {
+    #main {
         background-color: red;
     }
-    
+
 }
+
 
 header {
     width: 100%;
@@ -181,12 +182,12 @@ nav>#buttons {
     left: 14px;
 }
 
-#page2-companyname-shailendra-h2{
+#page2-companyname-shailendra-h2 {
     color: #000;
     cursor: pointer;
 }
 
-#page2-companyname-shailendra-h2:hover{
+#page2-companyname-shailendra-h2:hover {
     color: green;
 }
 
@@ -622,7 +623,7 @@ nav>#buttons {
     color: #fff;
 }
 
-.links-yes-ul-ul:hover{
+.links-yes-ul-ul:hover {
     color: #FFD5C0;
     font-size: 20px;
     font-weight: 600;
@@ -699,19 +700,19 @@ nav>#buttons {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.page6-main-box-in-2>p{
+.page6-main-box-in-2>p {
     height: 132px;
     /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.3em;
     font-weight: 100;
     color: #0b0b0bad;
 }
 
-.page6-main-box-in-3{
+.page6-main-box-in-3 {
     display: flex;
     /* background-color: red; */
     width: 100%;
@@ -724,20 +725,20 @@ nav>#buttons {
     line-height: 32px;
 }
 
-.page6-main-box-in-3>h4{
+.page6-main-box-in-3>h4 {
     font-weight: 600;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.1em;
     color: #000000a3;
 }
 
-.page6-main-box-in-3>p{
+.page6-main-box-in-3>p {
     font-size: 0.8em;
     position: relative;
     top: -15%;
 }
 
-.page6-main-box-in-4{
+.page6-main-box-in-4 {
     /* background-color: red; */
     width: 100%;
     height: 100%;
@@ -747,24 +748,24 @@ nav>#buttons {
     flex-direction: column;
 }
 
-#rad-main{
+#rad-main {
     display: flex;
     gap: 6px;
 }
 
-#rad-main>#rad{
+#rad-main>#rad {
     position: relative;
     left: 30px;
 }
 
-#hr-pa6{
+#hr-pa6 {
     position: relative;
     width: 80%;
     top: -7px;
     left: 120px;
 }
 
-.page6-main-box-in-4>button{
+.page6-main-box-in-4>button {
     width: 6%;
     height: 35px;
     position: absolute;
@@ -776,20 +777,19 @@ nav>#buttons {
     color: #fff;
 }
 
-.page6-main-box-in-4>button>.ri-arrow-left-s-line{
+.page6-main-box-in-4>button>.ri-arrow-left-s-line {
     color: #fff;
     position: relative;
     left: -12px;
 }
 
-.page6-main-box-in-4>button>.ri-arrow-right-s-line{
+.page6-main-box-in-4>button>.ri-arrow-right-s-line {
     color: #fff;
     position: relative;
     left: 12px;
 }
 
-#img
-{
+#img {
     margin-top: -15vh;
     width: 100%;
     height: 50%;
@@ -797,7 +797,7 @@ nav>#buttons {
     /* background-color: #C0C1BA; */
 }
 
-#page7{
+#page7 {
     width: 100vw;
     height: 110vh;
     background-color: #C0C1BA;
@@ -810,14 +810,14 @@ nav>#buttons {
     flex-direction: column;
 }
 
-#page7>img{
+#page7>img {
     width: 90%;
     scale: 1.2;
     top: 29vh;
     position: relative;
 }
 
-#page7-text{
+#page7-text {
     color: #000;
     position: relative;
     top: -45%;
@@ -830,13 +830,13 @@ nav>#buttons {
     /* background-color: #000; */
 }
 
-#page7-text>h1{
+#page7-text>h1 {
     font-weight: 500;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 3.4em;
 }
 
-#pgraph-in-page7{
+#pgraph-in-page7 {
     line-height: 22px;
     font-weight: 500;
     font-size: 19px;
